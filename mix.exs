@@ -9,7 +9,7 @@ defmodule Repeatex.Mixfile do
      compilers: compilers(Mix.env),
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
-     deps: deps]
+     deps: deps()]
   end
 
   def application do
